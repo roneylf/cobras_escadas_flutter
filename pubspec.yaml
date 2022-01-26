@@ -76,6 +76,12 @@ flutter:
     - assets/images/avatar2.png
     - assets/animations/monster.riv
     - assets/animations/cobraeescadas.riv
+    - assets/images/dado1.png
+    - assets/images/dado2.png
+    - assets/images/dado3.png
+    - assets/images/dado4.png
+    - assets/images/dado5.png
+    - assets/images/dado6.png
 
   #   - images/a_dot_ham.jpeg
 

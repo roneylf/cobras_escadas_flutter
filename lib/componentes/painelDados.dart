@@ -37,8 +37,11 @@ class PainelDados extends StatelessWidget {
                       return Container();
                     }
                     return Center(
-                      child: Text(CobraEscadas.dados.valueDado1.toString(),
-                          style: TextStyle(fontSize: 20)),
+                      child: Image.asset(
+                        'assets/images/dado${CobraEscadas.dados.valueDado1}.png',
+                        width: size * 0.18,
+                        height: size * 0.18,
+                      ),
                     );
                   }),
                 ),
@@ -68,9 +71,10 @@ class PainelDados extends StatelessWidget {
                       return Container();
                     }
                     return Center(
-                      child: Text(
-                        CobraEscadas.dados.valueDado2.toString(),
-                        style: TextStyle(fontSize: 20),
+                      child: Image.asset(
+                        'assets/images/dado${CobraEscadas.dados.valueDado2}.png',
+                        width: size * 0.18,
+                        height: size * 0.18,
                       ),
                     );
                   }),
